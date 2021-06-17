@@ -17,10 +17,7 @@ function Product({ id, title, price, rating, image }) {
             ))}
         </div>
       </div>
-      <img
-        src="https://images-eu.ssl-images-amazon.com/images/I/41cWqh0OeQL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg"
-        alt=""
-      />
+      <img src={image} alt="" />
       <button>Add to cart</button>
     </div>
   );

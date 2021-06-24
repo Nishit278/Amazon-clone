@@ -5,6 +5,9 @@ const ACTIONS = {
   ADD_TO_CART: "add-to-cart",
   REMOVE_FROM_CART: "remove-from-cart",
 };
+export const getBasketTotal = (basket) => {
+  return basket?.reduce((amount, item) => item.price + amount, 0);
+};
 function reducer(state, action) {
   console.log(action);
   switch (action.type) {
@@ -13,9 +16,7 @@ function reducer(state, action) {
 
     case ACTIONS.REMOVE_FROM_CART:
       let newBasket = [...state.basket];
-      const index = state.basket.findIndex(
-        (item) => item.id === action.id
-      );
+      const index = state.basket.findIndex((item) => item.id === action.id);
       if (index >= 0) {
         newBasket.splice(index, 1);
       } else {

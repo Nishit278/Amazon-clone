@@ -1,5 +1,6 @@
 * {
   --amazon-btn: #f0c145;
+  --amazon-btn-border: #a88734 #9c7e31 #846a29;
 }
 .product {
   display: flex;
@@ -34,5 +35,5 @@
 .product > button {
   background-color: var(--amazon-btn);
   border-width: 1px;
-  border-color: #a88734 #9c7e31 #846a29;
+  border-color: var(--amazon-btn-border);
 }

@@ -1,7 +1,7 @@
 .checkoutProduct {
   display: flex;
-  background-color: #fff;
-  margin: 5px 5px;
+  /* background-color: #fff; */
+  margin: 10px 5px;
 }
 .checkoutProduct__image {
   object-fit: contain;

@@ -6,6 +6,7 @@ function Home() {
     <div className="home">
       <img
         className="home__image"
+        // src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Laptops/GGD/June/Teaser/Gateway/D23436262_IN_PC_Laptops-Grand-Gaming-Days-May_3000x12000.5x._CB664929386_.jpg"
         src="https://images-eu.ssl-images-amazon.com/images/G/31/prime/Gateway/2021/desktop-1x._CB658860139_.jpg"
         // src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_TallHero_Gamers_en_US_1x._CB667161802_.jpg"
         alt=""

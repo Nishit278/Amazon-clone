@@ -1,0 +1,32 @@
+.checkoutProduct {
+  display: flex;
+  background-color: #fff;
+  margin: 5px 5px;
+}
+.checkoutProduct__image {
+  object-fit: contain;
+  width: 130px;
+  height: 130px;
+  min-width: 130px;
+}
+.checkoutProduct__rating {
+  display: flex;
+}
+.checkoutProduct__info {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.checkoutProduct__info > button {
+  background-color: var(--amazon-btn);
+  border-width: 1px;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+.checkoutProduct__title {
+  font-weight: bold;
+}
+.checkoutProduct__price {
+  display: flex;
+}
